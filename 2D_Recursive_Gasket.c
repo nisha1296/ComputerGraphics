@@ -1,6 +1,6 @@
 #include<GL/glut.h>
 GLfloat v[3][2]={{0,0},{250,500},{500,0}};
-int n=2,j;
+int n=5,j;
 void triangle(GLfloat *a,GLfloat *b,GLfloat *c)
 {
   glBegin(GL_TRIANGLES);

@@ -11,11 +11,11 @@ void triangle(GLfloat *a,GLfloat *b,GLfloat *c)
   glVertex3fv(b);
   glColor3f(0,0,1);
   glVertex3fv(c);
-  glColor3f(1,0,0);
+
 }  
 void tetra(GLfloat *a,GLfloat *b,GLfloat *c,GLfloat *d)
 {
-  glColor3f(1,0,0);
+
   triangle(b,c,d);
   triangle(a,c,d);
   triangle(b,a,d);
